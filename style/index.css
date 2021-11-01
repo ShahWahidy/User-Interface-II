@@ -64,10 +64,9 @@ nav{
 }
 .main{
     display: flex;
-    /* margin:10% 0; */ 
     justify-content: space-evenly;
     align-items: center;
-    /* padding: 3%; */
+
 }
 .pPicture{
     width: 50%;
@@ -77,7 +76,6 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: 10% 2%; */
     padding: 3%;
     width: 50%;
 }
@@ -112,7 +110,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10% 0;
+    margin: 5% 0;
     background-color: cornsilk;
 }
 footer button{
@@ -131,4 +129,40 @@ footer button{
     flex-direction: column;
     margin-bottom: 2%;
     
+}
+@media(max-width:800px){
+    nav{
+        justify-content: space-around;
+        width: 60%;
+        align-items: center;
+        background-color:rgba(255, 255, 255, 0.8);
+        font-size: 1.6rem;
+    }
+    .main{
+        padding: 3%;
+    }
+    h1{
+        font-size: 3rem;
+        margin-left: 2%;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    .info{
+        font-size: 1rem;
+    }
+    .info{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .projects{
+        margin-right: 8%;
+        font-size: 1rem;
+    }
+    button{
+        font-size: .8rem;
+    }
+    footer{
+        font-size: 1rem;
+    }
 }
