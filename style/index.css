@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    /* border:1px solid grey;  */
+    border:1px solid grey; 
 }
 
 /*General Styles*/
@@ -165,4 +165,33 @@ footer button{
     footer{
         font-size: 1rem;
     }
+}
+
+@media(max-width:500px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        background-color:#FBFFFB ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .info{
+        text-align: center;
+    }
+    .main{
+        flex-direction: column;
+    
+    }
+    .projects{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .box{
+        width: 50%;
+        padding: 3%;
+    }
+    
 }
